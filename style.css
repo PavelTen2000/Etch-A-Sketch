@@ -1,0 +1,14 @@
+#container>div{
+    margin:0;
+    border:0;
+}
+#container {
+    display: grid;
+    grid-template-columns: repeat(64, 10px);
+    grid-template-rows: repeat(64, 10px);
+
+  }
+
+  .colored {
+    background-color: grey;
+  }
